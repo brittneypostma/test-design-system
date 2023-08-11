@@ -337,6 +337,10 @@ img, video {
   --tw-backdrop-sepia: ;
 }
 
+.table {
+  display: table;
+}
+
 .contents {
   display: contents;
 }
@@ -373,6 +377,10 @@ img, video {
   border-color: #0000;
 }
 
+.border-accent-500 {
+  border-color: #4ce0ae;
+}
+
 .bg-accent-500 {
   background-color: #4ce0ae;
 }
@@ -391,6 +399,22 @@ img, video {
 
 .bg-warning-500 {
   background-color: #f7b01c;
+}
+
+.bg-info-500 {
+  background-color: #3937ca;
+}
+
+.bg-critical-500 {
+  background-color: #f14742;
+}
+
+.bg-neutral-600 {
+  background-color: #828686;
+}
+
+.bg-transparent {
+  background-color: #0000;
 }
 
 .px-2 {
@@ -468,6 +492,14 @@ img, video {
 
 .text-white {
   color: #fff;
+}
+
+.text-brand-950 {
+  color: #012a48;
+}
+
+.text-current {
+  color: currentColor;
 }
 
 .opacity-50 {
@@ -636,6 +668,34 @@ img, video {
   background-color: #fba637;
 }
 
+.hover\:bg-info-600:hover {
+  background-color: #322fb2;
+}
+
+.hover\:bg-critical-600:hover {
+  background-color: #df2b26;
+}
+
+.hover\:bg-neutral-700:hover {
+  background-color: #5a5d5d;
+}
+
+.hover\:bg-accent-400:hover {
+  background-color: #84edca;
+}
+
+.hover\:bg-current:hover {
+  background-color: currentColor;
+}
+
+.hover\:bg-transparent:hover {
+  background-color: #0000;
+}
+
+.hover\:text-brand-950:hover {
+  color: #012a48;
+}
+
 .hover\:shadow-lg:hover {
   --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
@@ -684,6 +744,26 @@ img, video {
   background-color: #005a92;
 }
 
+.focus\:bg-info-600:focus {
+  background-color: #322fb2;
+}
+
+.focus\:bg-critical-600:focus {
+  background-color: #df2b26;
+}
+
+.focus\:bg-accent-400:focus {
+  background-color: #84edca;
+}
+
+.focus\:bg-transparent:focus {
+  background-color: #0000;
+}
+
+.focus\:text-brand-950:focus {
+  color: #012a48;
+}
+
 .focus\:ring-accent-500:focus {
   --tw-ring-color: #4ce0ae;
 }
@@ -702,6 +782,14 @@ img, video {
 
 .focus\:ring-warning-500:focus {
   --tw-ring-color: #f7b01c;
+}
+
+.focus\:ring-info-500:focus {
+  --tw-ring-color: #3937ca;
+}
+
+.focus\:ring-critical-500:focus {
+  --tw-ring-color: #f14742;
 }
 
 .active\:bg-accent-700:active {
@@ -726,4 +814,20 @@ img, video {
 
 .active\:bg-brand-900:active {
   background-color: #024a78;
+}
+
+.active\:bg-info-700:active {
+  background-color: #2b2a98;
+}
+
+.active\:bg-critical-700:active {
+  background-color: #bb1e1a;
+}
+
+.active\:bg-transparent:active {
+  background-color: #0000;
+}
+
+.active\:text-brand-950:active {
+  color: #012a48;
 }
